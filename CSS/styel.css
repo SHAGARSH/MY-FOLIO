@@ -1,0 +1,63 @@
+/** COMMON CSS START */
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+align-center{
+    align-items: center;
+}
+ 
+/** COMMON CSS END */
+
+/** NAVBAR START HERE */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 30%;
+    padding-top: 20px;
+}
+nav .menu{
+    width: 70%;
+    text-align: center;
+    
+}
+ nav .menu ul li{
+    display: inline-block;   
+
+}
+nav .menu ul li a {
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+
+}
+
+
+
+/** NAVBAR ENDS HERE */
